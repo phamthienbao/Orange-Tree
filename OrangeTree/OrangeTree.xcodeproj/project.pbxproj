@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CBF58D425A750C100A34F63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF58D325A750C100A34F63 /* AppDelegate.swift */; };
+		2CBF58D625A750C100A34F63 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF58D525A750C100A34F63 /* GameViewController.swift */; };
+		2CBF58D925A750C100A34F63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF58D725A750C100A34F63 /* Main.storyboard */; };
+		2CBF58DC25A750C100A34F63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF58DA25A750C100A34F63 /* LaunchScreen.storyboard */; };
+		2CBF58E125A750C100A34F63 /* OrangeTree.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 2CBF58E025A750C100A34F63 /* OrangeTree.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2CBF58EE25A750C100A34F63 /* OrangeTree Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2CBF58ED25A750C100A34F63 /* OrangeTree Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2CBF591A25A750C100A34F63 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF58C925A750BE00A34F63 /* GameScene.sks */; };
+		2CBF591B25A750C100A34F63 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF58C925A750BE00A34F63 /* GameScene.sks */; };
+		2CBF591C25A750C100A34F63 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF58C925A750BE00A34F63 /* GameScene.sks */; };
+		2CBF591D25A750C100A34F63 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF58C925A750BE00A34F63 /* GameScene.sks */; };
+		2CBF591E25A750C100A34F63 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBF58CA25A750BE00A34F63 /* GameScene.swift */; };
+		2CBF592225A750C100A34F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF58CB25A750C100A34F63 /* Assets.xcassets */; };
+		2CBF592325A750C100A34F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF58CB25A750C100A34F63 /* Assets.xcassets */; };
+		2CBF592425A750C100A34F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF58CB25A750C100A34F63 /* Assets.xcassets */; };
+		2CBF592525A750C100A34F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF58CB25A750C100A34F63 /* Assets.xcassets */; };
+		2CBF593F25A7510F00A34F63 /* Assset - Smashing-Things.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2CBF593E25A7510F00A34F63 /* Assset - Smashing-Things.atlas */; };
+		CD05EC1125B6E30400D6DEFB /* newOrange.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD05EC1025B6E30400D6DEFB /* newOrange.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CBF58E225A750C100A34F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CBF58C325A750BE00A34F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CBF58DF25A750C100A34F63;
+			remoteInfo = "OrangeTree watchOS App";
+		};
+		2CBF58EF25A750C100A34F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CBF58C325A750BE00A34F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CBF58EC25A750C100A34F63;
+			remoteInfo = "OrangeTree watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2CBF592B25A750C100A34F63 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2CBF58EE25A750C100A34F63 /* OrangeTree Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBF592F25A750C100A34F63 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				2CBF58E125A750C100A34F63 /* OrangeTree.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2CBF58C925A750BE00A34F63 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2CBF58CA25A750BE00A34F63 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2CBF58CB25A750C100A34F63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CBF58D025A750C100A34F63 /* OrangeTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBF58D325A750C100A34F63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CBF58D525A750C100A34F63 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2CBF58D825A750C100A34F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CBF58DB25A750C100A34F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CBF58DD25A750C100A34F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CBF58E025A750C100A34F63 /* OrangeTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBF58ED25A750C100A34F63 /* OrangeTree Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "OrangeTree Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBF58FB25A750C100A34F63 /* OrangeTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBF590C25A750C100A34F63 /* OrangeTree.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeTree.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CBF593E25A7510F00A34F63 /* Assset - Smashing-Things.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = "Assset - Smashing-Things.atlas"; sourceTree = "<group>"; };
+		CD05EC1025B6E30400D6DEFB /* newOrange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newOrange.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CBF58CD25A750C100A34F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBF58EA25A750C100A34F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBF58F825A750C100A34F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBF590925A750C100A34F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CBF58C225A750BE00A34F63 = {
+			isa = PBXGroup;
+			children = (
+				2CBF58C725A750BE00A34F63 /* OrangeTree Shared */,
+				2CBF58D225A750C100A34F63 /* OrangeTree iOS */,
+				2CBF58D125A750C100A34F63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CBF58C725A750BE00A34F63 /* OrangeTree Shared */ = {
+			isa = PBXGroup;
+			children = (
+				2CBF58CA25A750BE00A34F63 /* GameScene.swift */,
+				2CBF58C925A750BE00A34F63 /* GameScene.sks */,
+				2CBF58CB25A750C100A34F63 /* Assets.xcassets */,
+			);
+			path = "OrangeTree Shared";
+			sourceTree = "<group>";
+		};
+		2CBF58D125A750C100A34F63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CBF58D025A750C100A34F63 /* OrangeTree.app */,
+				2CBF58E025A750C100A34F63 /* OrangeTree.app */,
+				2CBF58ED25A750C100A34F63 /* OrangeTree Extension.appex */,
+				2CBF58FB25A750C100A34F63 /* OrangeTree.app */,
+				2CBF590C25A750C100A34F63 /* OrangeTree.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CBF58D225A750C100A34F63 /* OrangeTree iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2CBF593E25A7510F00A34F63 /* Assset - Smashing-Things.atlas */,
+				2CBF58D325A750C100A34F63 /* AppDelegate.swift */,
+				2CBF58D525A750C100A34F63 /* GameViewController.swift */,
+				2CBF58D725A750C100A34F63 /* Main.storyboard */,
+				2CBF58DA25A750C100A34F63 /* LaunchScreen.storyboard */,
+				2CBF58DD25A750C100A34F63 /* Info.plist */,
+				CD05EC1025B6E30400D6DEFB /* newOrange.swift */,
+			);
+			path = "OrangeTree iOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CBF58CF25A750C100A34F63 /* OrangeTree iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBF593025A750C100A34F63 /* Build configuration list for PBXNativeTarget "OrangeTree iOS" */;
+			buildPhases = (
+				2CBF58CC25A750C100A34F63 /* Sources */,
+				2CBF58CD25A750C100A34F63 /* Frameworks */,
+				2CBF58CE25A750C100A34F63 /* Resources */,
+				2CBF592F25A750C100A34F63 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CBF58E325A750C100A34F63 /* PBXTargetDependency */,
+			);
+			name = "OrangeTree iOS";
+			productName = "OrangeTree iOS";
+			productReference = 2CBF58D025A750C100A34F63 /* OrangeTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CBF58DF25A750C100A34F63 /* OrangeTree watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBF592C25A750C100A34F63 /* Build configuration list for PBXNativeTarget "OrangeTree watchOS App" */;
+			buildPhases = (
+				2CBF58DE25A750C100A34F63 /* Resources */,
+				2CBF592B25A750C100A34F63 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CBF58F025A750C100A34F63 /* PBXTargetDependency */,
+			);
+			name = "OrangeTree watchOS App";
+			productName = "OrangeTree watchOS App";
+			productReference = 2CBF58E025A750C100A34F63 /* OrangeTree.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		2CBF58EC25A750C100A34F63 /* OrangeTree watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBF592825A750C100A34F63 /* Build configuration list for PBXNativeTarget "OrangeTree watchOS App Extension" */;
+			buildPhases = (
+				2CBF58E925A750C100A34F63 /* Sources */,
+				2CBF58EA25A750C100A34F63 /* Frameworks */,
+				2CBF58EB25A750C100A34F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OrangeTree watchOS App Extension";
+			productName = "OrangeTree watchOS App Extension";
+			productReference = 2CBF58ED25A750C100A34F63 /* OrangeTree Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		2CBF58FA25A750C100A34F63 /* OrangeTree tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBF593325A750C100A34F63 /* Build configuration list for PBXNativeTarget "OrangeTree tvOS" */;
+			buildPhases = (
+				2CBF58F725A750C100A34F63 /* Sources */,
+				2CBF58F825A750C100A34F63 /* Frameworks */,
+				2CBF58F925A750C100A34F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OrangeTree tvOS";
+			productName = "OrangeTree tvOS";
+			productReference = 2CBF58FB25A750C100A34F63 /* OrangeTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CBF590B25A750C100A34F63 /* OrangeTree macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CBF593625A750C100A34F63 /* Build configuration list for PBXNativeTarget "OrangeTree macOS" */;
+			buildPhases = (
+				2CBF590825A750C100A34F63 /* Sources */,
+				2CBF590925A750C100A34F63 /* Frameworks */,
+				2CBF590A25A750C100A34F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OrangeTree macOS";
+			productName = "OrangeTree macOS";
+			productReference = 2CBF590C25A750C100A34F63 /* OrangeTree.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CBF58C325A750BE00A34F63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					2CBF58CF25A750C100A34F63 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					2CBF58DF25A750C100A34F63 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					2CBF58EC25A750C100A34F63 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					2CBF58FA25A750C100A34F63 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					2CBF590B25A750C100A34F63 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 2CBF58C625A750BE00A34F63 /* Build configuration list for PBXProject "OrangeTree" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CBF58C225A750BE00A34F63;
+			productRefGroup = 2CBF58D125A750C100A34F63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CBF58CF25A750C100A34F63 /* OrangeTree iOS */,
+				2CBF58DF25A750C100A34F63 /* OrangeTree watchOS App */,
+				2CBF58EC25A750C100A34F63 /* OrangeTree watchOS App Extension */,
+				2CBF58FA25A750C100A34F63 /* OrangeTree tvOS */,
+				2CBF590B25A750C100A34F63 /* OrangeTree macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CBF58CE25A750C100A34F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBF591A25A750C100A34F63 /* GameScene.sks in Resources */,
+				2CBF58D925A750C100A34F63 /* Main.storyboard in Resources */,
+				2CBF593F25A7510F00A34F63 /* Assset - Smashing-Things.atlas in Resources */,
+				2CBF58DC25A750C100A34F63 /* LaunchScreen.storyboard in Resources */,
+				2CBF592225A750C100A34F63 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBF58DE25A750C100A34F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBF592325A750C100A34F63 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBF58EB25A750C100A34F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBF591B25A750C100A34F63 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBF58F925A750C100A34F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBF591C25A750C100A34F63 /* GameScene.sks in Resources */,
+				2CBF592425A750C100A34F63 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBF590A25A750C100A34F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBF591D25A750C100A34F63 /* GameScene.sks in Resources */,
+				2CBF592525A750C100A34F63 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CBF58CC25A750C100A34F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CBF591E25A750C100A34F63 /* GameScene.swift in Sources */,
+				CD05EC1125B6E30400D6DEFB /* newOrange.swift in Sources */,
+				2CBF58D625A750C100A34F63 /* GameViewController.swift in Sources */,
+				2CBF58D425A750C100A34F63 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBF58E925A750C100A34F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBF58F725A750C100A34F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CBF590825A750C100A34F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CBF58E325A750C100A34F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CBF58DF25A750C100A34F63 /* OrangeTree watchOS App */;
+			targetProxy = 2CBF58E225A750C100A34F63 /* PBXContainerItemProxy */;
+		};
+		2CBF58F025A750C100A34F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CBF58EC25A750C100A34F63 /* OrangeTree watchOS App Extension */;
+			targetProxy = 2CBF58EF25A750C100A34F63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CBF58D725A750C100A34F63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CBF58D825A750C100A34F63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CBF58DA25A750C100A34F63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CBF58DB25A750C100A34F63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CBF592625A750C100A34F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CBF592725A750C100A34F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2CBF592925A750C100A34F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OrangeTree watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baokb.OrangeTree.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "OrangeTree Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		2CBF592A25A750C100A34F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OrangeTree watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baokb.OrangeTree.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "OrangeTree Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		2CBF592D25A750C100A34F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = OrangeTree_Extension;
+				INFOPLIST_FILE = "OrangeTree watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = baokb.OrangeTree.watchkitapp;
+				PRODUCT_NAME = OrangeTree;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		2CBF592E25A750C100A34F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = OrangeTree_Extension;
+				INFOPLIST_FILE = "OrangeTree watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = baokb.OrangeTree.watchkitapp;
+				PRODUCT_NAME = OrangeTree;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		2CBF593125A750C100A34F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OrangeTree iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baokb.OrangeTree;
+				PRODUCT_NAME = OrangeTree;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CBF593225A750C100A34F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OrangeTree iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baokb.OrangeTree;
+				PRODUCT_NAME = OrangeTree;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CBF593425A750C100A34F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OrangeTree tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baokb.OrangeTree;
+				PRODUCT_NAME = OrangeTree;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+			};
+			name = Debug;
+		};
+		2CBF593525A750C100A34F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OrangeTree tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = baokb.OrangeTree;
+				PRODUCT_NAME = OrangeTree;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CBF593725A750C100A34F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OrangeTree macOS/OrangeTree_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OrangeTree macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = baokb.OrangeTree;
+				PRODUCT_NAME = OrangeTree;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2CBF593825A750C100A34F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OrangeTree macOS/OrangeTree_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "OrangeTree macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = baokb.OrangeTree;
+				PRODUCT_NAME = OrangeTree;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CBF58C625A750BE00A34F63 /* Build configuration list for PBXProject "OrangeTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBF592625A750C100A34F63 /* Debug */,
+				2CBF592725A750C100A34F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CBF592825A750C100A34F63 /* Build configuration list for PBXNativeTarget "OrangeTree watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBF592925A750C100A34F63 /* Debug */,
+				2CBF592A25A750C100A34F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CBF592C25A750C100A34F63 /* Build configuration list for PBXNativeTarget "OrangeTree watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBF592D25A750C100A34F63 /* Debug */,
+				2CBF592E25A750C100A34F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CBF593025A750C100A34F63 /* Build configuration list for PBXNativeTarget "OrangeTree iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBF593125A750C100A34F63 /* Debug */,
+				2CBF593225A750C100A34F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CBF593325A750C100A34F63 /* Build configuration list for PBXNativeTarget "OrangeTree tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBF593425A750C100A34F63 /* Debug */,
+				2CBF593525A750C100A34F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CBF593625A750C100A34F63 /* Build configuration list for PBXNativeTarget "OrangeTree macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CBF593725A750C100A34F63 /* Debug */,
+				2CBF593825A750C100A34F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CBF58C325A750BE00A34F63 /* Project object */;
+}
